@@ -1,10 +1,10 @@
-"""Waqas Tools Hub — phone-friendly front end for 9 open-source tools."""
+"""Waqas Tools Hub — phone-friendly front end for 10 open-source tools."""
 import streamlit as st
 
 st.set_page_config(page_title="Waqas Tools Hub", page_icon="🧰", layout="centered")
 
 st.title("🧰 Waqas Tools Hub")
-st.caption("9 open-source tools, one phone-friendly place. "
+st.caption("10 open-source tools, one phone-friendly place. "
            "✅ = working page · 📖 = setup guide (tool needs its own environment).")
 
 TOOLS = [
@@ -34,6 +34,10 @@ TOOLS = [
      "guide"),
     ("pages/9_ADHD_Style_Guide.py", "⚡", "ADHD Answer Style",
      "Not an app — an output-style skill. Its 5 core rules, ready to copy.",
+     "guide"),
+    ("pages/10_AI_Tools_Pack.py", "🧰", "AI Tools Pack",
+     "5 verified free tools — shared AI memory, website-to-API, agent console, "
+     "live-site design patches, free AI CCTV search. Links + install commands.",
      "guide"),
 ]
 
